@@ -1,0 +1,105 @@
+* {
+    font-size: 40px;
+    color: white;
+    margin: 0;
+  }
+  body {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 5%;
+    background-color: pink;
+}
+.german {
+    width:320px;
+}  
+.french {
+  width:300px;
+  margin-top: 10px;
+}  
+
+  .child-one {
+    background-color:black;
+    width: 200px;
+    height: 40px;
+    /* position: relative; */
+    /* left: 200px; */
+  }
+  
+  /* .child-one:hover{
+    background-color:red;
+    width: 200px;
+  } */
+  
+  .child-two {
+    background-color: red;
+    width: 200px;
+    height: 40px;
+  }
+  
+  /* .child-two:hover{
+    background-color: white;
+    width: 200px;
+  } */
+
+  .child-three {
+    background-color:yellow;
+    width: 200px;
+    height: 40px;
+}
+
+.child-x {
+  background-color:pink;
+  width: 200px;
+  height: 40px;
+}
+/* .child-three:hover{
+    background-color: green;
+    width: 200px;
+  } */
+
+.german:hover .child-one{
+    background-color:red;
+}
+.german:hover .child-two {
+    background-color:white;
+}
+.german:hover .child-three {
+    background-color:green;
+}
+
+  .child-four {
+    background-color:blue;
+    display: inline-block;
+    width: 80px;
+    height: 200px;
+    /* position: relative; */
+    /* left: 200px; */
+  }
+  
+  .child-five {
+    background-color: white;
+    width: 80px;
+    height: 200px;
+    display: inline-block;
+    /* position: relative;
+    left: 50px;
+    bottom: 200px; */
+  }
+  
+  .child-six {
+    background-color:red;
+    width: 80px;
+    height: 200px;
+    display: inline-block;
+    /* position: relative;
+    left: 100px;
+    bottom: 400px; */
+  }
+.french:hover .child-four{
+    background-color:green;
+}
+.french:hover .child-five {
+    background-color:white;
+}
+.french:hover .child-six {
+    background-color:orange;
